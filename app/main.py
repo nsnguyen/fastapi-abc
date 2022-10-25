@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+from dotenv_vault import load_dotenv
 
 from typing import Union
 from fastapi import FastAPI
