@@ -6,3 +6,5 @@ services:
       - .:/app
     ports:
       - "8001:8001"
+    environment:
+      - DOTENV_KEY="dotenv://:key_af3ddeee0ef282e37fc7de20f55af5add6b7f6efe52c154d33f88415b9a6cf19@dotenv.org/vault/.env.vault?environment=production"
